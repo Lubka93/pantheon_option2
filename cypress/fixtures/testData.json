@@ -1,0 +1,4 @@
+{
+    "validSearchData": ["cypress", "cookie", "testing", "        cypress", "CYPRESS"], 
+    "invalidSearchData": ["123456", "ppppppppppp", "wwwww"]
+}
