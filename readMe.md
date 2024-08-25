@@ -10,6 +10,11 @@ I prepared simple tests focused on search functionality at cypress.io webpage. T
 I created simple API test for all main REST methods based on JSON Placeholder API documentation. I focused on GET/POST/PATCH/UPDATE/DELETE of the posts. Test are also written using JavaScript and Cypress.
 
 
+#### CI/CD pipeline
+I used Jenkins CI/CD server to run all tests in e2e folder of this cypress project. Jenkins is running in Docker using Jenkins image. Dockerfile contains additional libraries important for running Cypress in Linux enviroment. 
+
+In Jenkins I created simple freestyle job to run tests avalaible on GitHub repository "pantheon_option2" every day between 8-9 PM.
+
 
 #### Relevant utilities which I used for creating testing enviroment:
 
