@@ -11,9 +11,9 @@ I created simple API test for all main REST methods based on JSON Placeholder AP
 
 
 #### CI/CD pipeline
-I used Jenkins CI/CD server to run all tests in e2e folder of this cypress project. Jenkins is running in Docker using Jenkins image. Dockerfile contains additional libraries important for running Cypress in Linux enviroment. 
+I used Jenkins CI/CD to run all tests in E2E folder of this cypress project. Jenkins is running in Docker using Jenkins image. 
 
-In Jenkins I created simple freestyle job to run tests avalaible on GitHub repository "pantheon_option2" every day between 8-9 PM.
+In Jenkins I created simple freestyle job to run tests avalaible on GitHub repository "pantheon_option2" every day at 8 PM UTC.
 
 
 #### Relevant utilities which I used for creating testing enviroment:
